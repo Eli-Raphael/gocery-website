@@ -84,8 +84,8 @@ const Navigation = ({cartCount}) => {
                     {!auth &&
                         <Link className={styles['account']} onClick={closeMenu} to={'/login'}>Login/Sign Up</Link>}
                     <Link onClick={closeMenu} to={'/products'}>Products</Link>
-                    {auth && <Link onClick={closeMenu} className={styles['account']} to={'/wishlist'}>Wishlist {user.wishlist?.length > 0 ? `(${user.wishlist?.length})` : ''}</Link>}
-                    {auth &&
+                     {auth && <Link onClick={closeMenu} className={styles['account']} to={'/wishlist'}>Wishlist {user.wishlist?.length > 0 ? `(${user.wishlist?.length})` : ''}</Link>}
+                     {auth &&
                         <Link onClick={closeMenu} className={styles['account']} to={'/orders'}>Previous Orders</Link>}
                     <Link onClick={closeMenu} to={'/shipping'}>Track Shipping</Link>
                     {admin && <Link onClick={closeMenu} className={styles['account']} to={'/admin'}>Admin Panel</Link>}
