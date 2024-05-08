@@ -7,7 +7,7 @@ const Footer = () => {
         <div className={styles['wrapper']}>
             <div className={styles['top-wrapper']}>
                 <div className={styles['logo-wrapper']}>
-                    <img src={Logo} alt={'Rabbit Mart'}/>
+                    <img src={Logo} alt={'GOcery'}/>
                 </div>
                 <div className={styles['pages-wrapper']}>
                     <div className={styles['pages']}>
@@ -26,16 +26,10 @@ const Footer = () => {
                             <Link to={'/products'}>All Products</Link>
                         </div>
                     </div>
-                    <div className={styles['pages']}>
-                        <div className={styles['page-title']}>Development</div>
-                        <div className={styles['pages-list']}>
-                            <a href={'https://github.com/skittlesaur/rabbitmart'} target={'_blank'} rel={'noreferrer'}>GitHub Repository</a>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div className={styles['credits']}>
-                Curious Monkeys, 2022.
+                Tokyo Group, 2022.
             </div>
         </div>
     );
