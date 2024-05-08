@@ -34,7 +34,7 @@ const Home = ({addProductToCart}) => {
                 <div className={styles['hero-text']}>
                     <h1>Groceries and more in <span>20</span> minutes</h1>
                     <p>Making on-demand retail a reality!</p>
-                    <Link className={'btn1'} to={'products'}>Shop Now</Link>
+                    <Link className={'btn1'} to={'products'}>Order Now!</Link>
                 </div>
                 <div className={styles['delivery']}>
                     <motion.img drag dragConstraints={{top: 0, right: 0, bottom: 0, left: 0}} src={DeliveryImg}
